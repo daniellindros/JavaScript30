@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <script src="drumkit.js" defer></script>
+</head>
+
+<body>
+    <div class="background">
+        <div class="header">
+            <h1 class="title">Drumkit</h1>
+        </div>
+        <div class="keys">
+            <div data-key="81" class="key">
+                <kbd>Q</kbd>
+                <span class="soundname">clap</span>
+            </div>
+            <div data-key="87" class="key">
+                <kbd>W</kbd>
+                <span class="soundname">hihat</span>
+            </div>
+            <div data-key="69" class="key">
+                <kbd>E</kbd>
+                <span class="soundname">kick</span>
+            </div>
+
+            <div data-key="65" class="key">
+                <kbd>A</kbd>
+                <span class="soundname">openhat</span>
+            </div>
+            <div data-key="83" class="key">
+                <kbd>S</kbd>
+                <span class="soundname">boom</span>
+            </div>
+            <div data-key="68" class="key">
+                <kbd>D</kbd>
+                <span class="soundname">ride</span>
+            </div>
+
+            <div data-key="90" class="key">
+                <kbd>Z</kbd>
+                <span class="soundname">snare</span>
+            </div>
+            <div data-key="88" class="key">
+                <kbd>X</kbd>
+                <span class="soundname">tom</span>
+            </div>
+            <div data-key="67" class="key">
+                <kbd>C</kbd>
+                <span class="soundname">tink</span>
+            </div>
+        </div>
+    </div>
+
+    <audio data-key="81" src="sounds/clap.wav"></audio>
+    <audio data-key="87" src="sounds/hihat.wav"></audio>
+    <audio data-key="69" src="sounds/kick.wav"></audio>
+    <audio data-key="65" src="sounds/openhat.wav"></audio>
+    <audio data-key="83" src="sounds/boom.wav"></audio>
+    <audio data-key="68" src="sounds/ride.wav"></audio>
+    <audio data-key="90" src="sounds/snare.wav"></audio>
+    <audio data-key="88" src="sounds/tom.wav"></audio>
+    <audio data-key="67" src="sounds/tink.wav"></audio>
+
+</body>
+
+</html>
