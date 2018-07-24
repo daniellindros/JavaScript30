@@ -3,8 +3,6 @@ const minuteHand = document.querySelector('.min-hand');
 const hourHand = document.querySelector('.hour-hand');
 
 let ClockHelper = function setTime() {
-  let now;
-
   function getTime() {
     return new Date();
   }
